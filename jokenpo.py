@@ -17,7 +17,7 @@ while True: #The game will run in this while loop
         print('Press (q) to close the game\n')
         player_move = input('Enter your move: (r)ock (p)aper (s)cissors\n')
         if player_move == 'q':
-            sys.exit() #Quit the program
+            sys.exit()                              #Quit the program
         elif player_move == 'r' or player_move == 'p' or player_move == 's':
             break
 
